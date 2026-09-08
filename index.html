@@ -15,6 +15,27 @@
                 border: 1px solid #ccc;
                 padding: 20px;
             }
+            .video-embed {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                margin-bottom: 15px;
+            }
+            .video-embed iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+            .project video {
+                max-width: 100%;
+                display: block;
+                margin-bottom: 15px;
+            }
         </style>
         <title>Nakshatra Gupta - Portfolio</title>
     </head>
@@ -34,18 +55,18 @@
                 <h1>Nakshatra Gupta</h1>
                 <p>Computer Engineer and Web Developer</p>
                 <p style="font-family: 'Courier New', Courier, monospace; color: brown">Welcome to SE/COMS 3190!</p>
-                <p>Course Description: Overview of user interface design. Evaluation and testing
-                of user interfaces. Review of principles of object orientation, object-oriented
-                design and analysis using UML in the context of user interface design. Design
-                of windows, menus, and commands. Developing Web and Windows-based
-                user-interfaces.</p>
+                <p>I'm Nakshatra Gupta, a Computer Engineering student at Iowa State University who transferred from Nirma University in Ahmedabad, India. My academic journey has taken me across continents and two universities, building a foundation in both the theoretical depth of computer science and the hands-on rigor of engineering.</p>
+                <p>I'm most energized when I get to work close to the hardware, programming microcontrollers, designing sensor-driven systems, and watching logic translate into physical behavior. At the same time, I have a strong pull toward the visual side of computing: UI/UX design, digital art, and game design concepts.</p>
+                <p>Outside of coursework, I've volunteered at Comic Con India and concert events, competed in hackathons, and contributed to NASA's SpaceApps challenge. I believe good engineering is both technically sound and human-centered.</p>
             </div>
         </section>
         <section id="projects">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project">
-                    <img src="./images/calmify.jpg" alt="Calmify App Demonstration">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/qTwxhTLsqMM" title="Calmify App Demonstration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                     <h3>Project 1: Calmify - Mental Health Mobile App</h3>
                     <p><em>Jan 2026 &ndash; May 2026 &middot; Associated with Iowa State University - College of Engineering</em></p>
                     <p>Calmify is a full-stack mental health platform that connects users with
@@ -76,7 +97,7 @@
                     <p><strong>Skills:</strong> Android Development, Java, and +7 skills</p>
                 </div>
                 <div class="project">
-                    <img src="./images/cybot.jpg" alt="CyBot Shopping Robot">
+                    <img src="./images/cybot-robot.jpg" alt="CyBot autonomous navigation robot on the test course">
                     <h3>Project 2: CyBot Shopping Robot &ndash; Navigation &amp; Sensing</h3>
                     <p><em>Nov 2025 &ndash; Dec 2025 &middot; Iowa State University</em></p>
                     <p><strong>What is the project?</strong><br>
@@ -117,15 +138,6 @@
                     stored, moved, and sold. This project gave me a concrete, working foundation
                     in exactly that domain.</p>
                     <p><strong>Skills:</strong> C, Embedded, Robotics</p>
-                </div>
-                <div class="project">
-                    <img src="./images/project1.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>The third project focuses on designing a Web page using HTML and CSS.
-                    In terms of the layout, a navigation bar is created at the top displaying a
-                    list of menu items. We include some text describing each section of the
-                    page. Additionally, we included two images to enhance the visual appeal of
-                    the page.</p>
                 </div>
             </div>
         </section>
